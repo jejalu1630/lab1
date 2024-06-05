@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeria.css">
+    <title>MI PERSONAS FAVORITAS</title>
+</head>
+<HEader class="HEader"><I><B>MIS PERSONAS FAVORITAS</B></I></HEader>
+<body>
+    <DIv class="container">
+        <DIv class="container">
+            <DIv class="FOTOS">
+                <div class="img">
+                    <h1 class="nombre"><i><b></b></i>Jeronimo</h1>
+                    <img src="image/cuatro.png" width="350px" height="350px" alt="">
+                    <p class="pa">Dia de Cumpleañoz</p>
+                </div>
+            </DIv>
+            <DIv class="container">
+                <DIv class="FOTOS">
+                    <div class="img">
+                        <h1 class="nombre"><i><b></b></i>Jacobo</h1>
+                        <img src="image/seis.png" width="350px" height="350px" alt="">
+                        <p class="pa">Dia de Cumpleañoz</p>
+                    </div>
+                </DIv>
+                    </DIv>
+        <DIv class="container">
+            <DIv class="FOTOS">
+                <div class="img">
+                    <h1 class="nombre"><i><b></b></i>Jeronimo</h1>
+                    <img src="image/dos.png" width="350px" height="350px" alt="">
+                    <p class="pa">Disfrutando el dìa de velas</p>
+                </div>
+            </DIv>
+            <DIv class="container">
+                <DIv class="FOTOS">
+                    <div class="img">
+                        <h1 class="nombre"><i><b></b></i>Jeronimo</h1>
+                        <img src="image/tres.png" width="350px" height="350px" alt="">
+                        <p class="pa">Con los primos</p>
+                    </div>
+                </DIv>
+                        <DIv class="container">
+                        <DIv class="FOTOS">
+                            <div class="img">
+                                <h1 class="nombre"><i><b></b></i>Jacobo</h1>
+                                <img src="image/cinco.png" width="350px" height="350px" alt="">
+                                <p class="pa">Dia de Bautizo</p>
+                            </div>
+                        </DIv>
+                            <DIv class="container">
+                                <DIv class="FOTOS">
+                                    <div class="img">
+                                        <h1 class="nombre"><i><b></b></i>Jeronimoo</h1>
+                                        <img src="image/siete.png" width="350px" height="350px" alt="">
+                                        <p class="pa">Con la Abu</p>
+                                    </div>
+                                </DIv>
+                                <DIv class="container">
+                                    <DIv class="FOTOS">
+                                        <div class="img">
+                                            <h1 class="nombre"><i><b></b></i>Jacobo</h1>
+                                            <img src="image/ocho.png" width="350px" height="350px" alt="">
+                                            <p class="pa">Con la Abu</p>
+                                        </div>
+                                    </DIv>
+    
+</body>
+</html>

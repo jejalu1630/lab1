@@ -1,0 +1,46 @@
+Código HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Neflix</title>
+</head>
+<header class="title">NETFLIX</header>
+<body>
+    <section>
+        <div class="contenedor">
+            <form class="BOX">
+                <h1>Iniciar sesión</h1>
+                <input type="email" name="email" id="date" placeholder="Email o número Celuluar">
+            </br>
+        </br>
+                <input type="password" name="password" id="" placeholder="Contraseña">
+    </br>
+</br>
+                <input type="button" value="Iniciar sesión" id="bot1">
+</br>
+                <p>Puedes tambien </p>
+                <input type="button" value="Usar un codigo de inicio de sesión" id="bot2">
+            </br>
+                <p>¿ Ovidaste la contraseña?</p>
+        </br>        
+                <div class="Recuerdame">
+                <label><input type="checkbox" name="" id="">Recuerdame</label>
+                </br>
+                <p>Eres Usuario Nuevo</p>
+                <a href="#">Suscribete Ya</a>
+                </div>
+            </br>
+        </br>
+        <footer>Esta Pagina esta protegida</footer>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

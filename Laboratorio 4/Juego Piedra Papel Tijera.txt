@@ -1,0 +1,97 @@
+1. url: http://127.0.0.1:3000/c:/Users/denni/OneDrive/Escritorio/Taller%204/pptn.html
+
+
+2. Código HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijera</title>
+    <link rel="stylesheet" href="pptn.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel, Tijera</h1>
+        <div class="juego">
+            <p>Elige una opción:</p>
+            <button id="Piedra">✊Piedra</button>
+            <button id="Papel">✋Papel</button>
+            <button id="Tijera">✌️Tijera</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="pptn.js"></script>
+</body>
+</html>
+
+3. Código CSS
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+4. Código Java script
+function computerPlay() {
+    const choices = ['Piedra', 'Papel', 'Tijera'];
+    const randomIndex = Math.floor(Math.random() * choices.length);
+    return choices[randomIndex];
+}
+function playRound(playerSelection, computerSelection) {
+    if (playerSelection === computerSelection) {
+        return "¡Es un empate!";
+    } else if (
+        (playerSelection === "Piedra" && computerSelection === "Tijera") ||
+        (playerSelection === "Papel" && computerSelection === "Piedra") ||
+        (playerSelection === "Tijera" && computerSelection === "Papel")
+    ) {
+        return "¡Ganaste!";
+    } else {
+        return "¡Perdiste!";
+    }
+}
+function showResult(result) {
+    const resultDisplay = document.getElementById("result");
+    resultDisplay.textContent = result;
+}
+document.getElementById("Piedra").addEventListener("click", function() {
+    const playerSelection = "Piedra";
+    const computerSelection = computerPlay();
+    const result = playRound(playerSelection, computerSelection);
+    showResult(result);
+});
+document.getElementById("Papel").addEventListener("click", function() {
+    const playerSelection = "Papel";
+    const computerSelection = computerPlay();
+    const result = playRound(playerSelection, computerSelection);
+    showResult(result);
+});
+document.getElementById("Tijera").addEventListener("click", function() {
+    const playerSelection = "Tijera";
+    const computerSelection = computerPlay();
+    const result = playRound(playerSelection, computerSelection);
+    showResult(result);
+});

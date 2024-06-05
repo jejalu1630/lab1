@@ -1,0 +1,47 @@
+adivina el numero
+
+1. HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina el Número</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Adivina el Número</h1>
+  <p id="message"></p>
+  <input type="number" id="guessInput">
+  <button onclick="checkGuess()">Adivinar</button>
+  <button onclick="resetGame()">Nuevo Juego</button>
+
+  <script src="adivi.js"></script>
+</body>
+</html>
+
+2.JS
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+let guesses = 0;
+
+function checkGuess() {
+  let userGuess = parseInt(document.getElementById("guessInput").value);
+  guesses++;
+  let message = document.getElementById("message");
+  if (userGuess === randomNumber) {
+    message.textContent = `¡Felicidades! Adivinaste el número ${randomNumber} en ${guesses} intentos.`;
+  } else if (userGuess < randomNumber) {
+    message.textContent = "El número es mayor. Intenta de nuevo.";
+  } else {
+    message.textContent = "El número es menor. Intenta de nuevo.";
+  }
+  document.getElementById("guessInput").value = "";
+  if (guesses === 10) {
+    message.textContent = `Lo siento, has agotado tus intentos. El número correcto era ${randomNumber}.`;
+  }
+}
+function resetGame() {
+  randomNumber = Math.floor(Math.random() * 100) + 1;
+  guesses = 0;
+  document.getElementById("message").textContent = "";
+}

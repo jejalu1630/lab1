@@ -1,0 +1,75 @@
+Código css
+
+body{
+    background-image: url(images.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    padding: 10%;
+}
+.title{
+    display: flex;
+    justify-content: start;
+    padding: 90px;
+    font-size: 90px;
+    color: aliceblue;
+}
+h1{
+    color: rgb(236, 245, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40PX;
+    justify-content: start;
+    display: flex;
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        p{
+            color: white;
+        }
+    }
+    .contenedor{
+        max-width: 660px;
+        background-color: #242323;
+        padding: 60px;
+        border-radius: 2em;
+        background-position-x: center;
+        }
+        .Recuerdame{
+            text-justify: auto;
+            color: white;
+            justify-content: center;
+        }
+         .box{
+        display: flex;
+        padding: 30px;
+        padding-bottom: 80px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0);
+        align-items: center;
+        justify-content: center;
+            }
+    footer{
+        font-size:12px ;
+        color: rgb(119, 115, 115);
+    }
+    a{
+       color: rgb(52, 97, 245); 
+    }
+    #date{
+        color: white;
+        font-size: 15px;
+        border: 1px grey
+        background-color:rgb(56, 54, 54);
+        border-radius: 8px;
+    }
+    #bot1{
+        background-color: rgb(242, 13, 13) ;
+        
+    }
+    #bot2{
+        background-color: rgb(92, 78, 78);
+    }

@@ -1,0 +1,9 @@
+Código numero Par
+let numero = (prompt ("ingresa un numero", "0"));
+                   let mensaje=" "
+                   if (numero % 2 == 0){
+                    mensaje= ("Verdadero " +numero+ " Es par");
+                    }else{
+                    mensaje= ("Falso " +numero+" Es impar")
+                    }
+                    alert(mensaje)

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Perro.css">
+    <title>JERO´S</title>
+</head>
+<header class="header"><b><i>JERO´S </i></b>
+    <p class="P">¡Un sabor inigualable!</p> 
+    </header>
+<body>
+    <div class="container">
+        <div class="Tipo">
+            <img class="imag">
+            <img src="Imag/Hotdog3.jpeg">
+            <h1 class="t1">Clasico</h1>
+            <P>Salchicha Zenu, cebolla picada, papita picada y salsa al gusto</P>
+            <p>Precio $4000 pesos</p>
+            <button>Comprar</button>
+        </div>
+
+
+        <div class="container">
+            <div class="Tipo">
+                <img class="imag" src="Imag/Hotdog2.jpeg">
+                <h1 class="t2">Especial</h1>
+                <p>Salchicha Americana Zenu, cebolla picada, queso, papita picada y salsa al gusto</p>
+                <p>Precio $8000 pesos</p>
+                <button>Comprar</button>
+            </div>
+
+
+                        <div class="container">
+                <div class="Tipo">
+                    <img src="Imag/Hotdog1.jpeg">
+                    <h1 class="t3">Super JERO´S</h1>
+                    <p>Salchicha Americana Zenu, cebolla picada, queso, tocineta, papita picada huevo de codorniz y salsa al gusto</p>
+                    <p>Precio $12000 pesos</p>
+                    <button>Comprar</button>
+                </div>
+            
+            
+                <div class="container">
+                    <div class="Tipo">
+                        <img src="Imag/Hamburg3.jpeg">
+                        <h1>Clasica</h1>
+                        <p>Carne Artesanal, cebolla picada, queso, tocineta, papita picada y salsa al gusto</p>
+                        <p>Precio $8000 pesos</p>
+                        <button>Comprar</button>
+                    </div>
+            
+            
+                    <div class="container">
+                        <div class="Tipo">
+                            <img src="Imag/Hambur2.jpeg">
+                            <h1>Super JERO´S</h1>
+                            <p>Doble Carne Artesanal , cebolla picada, queso, tocineta, papita picada, huevo de codorniz y salsa al gusto</p>
+                            <p>Precio $1200 pesos</p>
+                            <button>Comprar</button>
+                        </div>
+                    <div>
+    </div>
+    <br>
+                       
+    </body>
+    </html>
